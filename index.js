@@ -15,4 +15,3 @@ app.get('/welcome', (req, res)=>{
     res.send("Welcome to the world of express");
 });
 
-app.post("/signup", )

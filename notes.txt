@@ -15,3 +15,14 @@ router are the path for browser --> root route, named
 
 Query parameter ability to select and define the search
 
+
+day2 ->
+Middleware
+MVC architecture
+API -> Restful API (scalable, reliable, secure, fast)
+
+
+app.method("/sum", (req, res)=>{
+     const a = parseInt(req.query.a);
+     const b = parseInt(req.query.b);
+})
