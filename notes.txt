@@ -13,3 +13,5 @@ port listerner for localhost
 router are the path for browser --> root route, named
    dynamic routing (welcome page)
 
+Query parameter ability to select and define the search
+
