@@ -3,3 +3,13 @@ ROUTING IN EXPRESS JS
 Node js environment
 
 npm init -y -- initializes empty project
+
+index.js -- main file
+
+api design with EXPRESS
+
+port listerner for localhost
+
+router are the path for browser --> root route, named
+   dynamic routing (welcome page)
+
