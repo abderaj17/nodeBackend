@@ -25,4 +25,16 @@ API -> Restful API (scalable, reliable, secure, fast)
 app.method("/sum", (req, res)=>{
      const a = parseInt(req.query.a);
      const b = parseInt(req.query.b);
+
+     res.send("")
 })
+
+
+1. app.use(Middleware)
+2. const Middleware = (req, res, next()=>{})
+
+app.method("/route", Middleware, callback handler);
+
+
+*Middleware are the functions that are implemented before any route is handled after recieving the
+  request.
