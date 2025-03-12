@@ -1,3 +1,5 @@
 ROUTING IN EXPRESS JS
 
 Node js environment
+
+npm init -y -- initializes empty project
