@@ -64,3 +64,15 @@ db.trial.findOne({name:"BCD"});
 
 
 ex -- db.trial.find({age: {$lt: 100}})
+
+*NO condition means all the data.
+
+COMPARISON OPERATORS-->>
+
+-db.trial.find({age: {$lt: 100}}) 
+-$lte -> less than or equal to
+-$gt -> greater than
+-$gte -> greater than equal
+-$ne -> not equal
+
+db.trial.find({age: {$ne: 50}})
