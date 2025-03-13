@@ -57,3 +57,10 @@ create commands -> db.collectionName.insertOne({obj that needs to be stored})
                         {}
                     ]
                    )
+
+Read commands->
+db.trial.find({name:"BCD"})
+db.trial.findOne({name:"BCD"});
+
+
+ex -- db.trial.find({age: {$lt: 100}})
