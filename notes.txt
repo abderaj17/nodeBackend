@@ -76,3 +76,10 @@ COMPARISON OPERATORS-->>
 -$ne -> not equal
 
 db.trial.find({age: {$ne: 50}})
+
+&&-> 
+db.trial.find({$and: [{condition1}, {condition2}]});
+
+
+
+ecommerce app ->
