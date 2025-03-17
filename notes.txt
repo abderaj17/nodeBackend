@@ -89,3 +89,12 @@ roll based authentication ->
 We will be using Mongoose for data handeling.
 
 CAPTCHA => Completely automated public turing test to tell computers and humans apart.
+
+Aggregation and pipelines -->>
+
+When we have to implement more than one logic to the data
+ in order to extract something that depends on the data but is not exactly in the same 
+ as the data.
+
+
+Grouping and count and return.
