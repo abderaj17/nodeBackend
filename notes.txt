@@ -88,3 +88,4 @@ roll based authentication ->
 
 We will be using Mongoose for data handeling.
 
+CAPTCHA => Completely automated public turing test to tell computers and humans apart.
