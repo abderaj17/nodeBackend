@@ -83,3 +83,8 @@ db.trial.find({$and: [{condition1}, {condition2}]});
 
 
 ecommerce app ->
+roll based authentication ->
+                            
+
+We will be using Mongoose for data handeling.
+
