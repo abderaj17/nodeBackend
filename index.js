@@ -38,3 +38,22 @@ const requestLogger = (req, res, next)=>{
     next();
 }
 app.use(requestLogger);
+
+
+app.patch("/update/:email",  async(req, res)=>{
+    try{
+        const email = req.params.email;
+        const user  = await user.findOne({
+            email:email
+        });
+        if(!user){
+            res.status(404).send("User not found");
+        }
+
+        user.set(req.body);
+        await user.save();
+        res.status(404).
+    }catch(err){
+        res.status(404)
+    }
+})
