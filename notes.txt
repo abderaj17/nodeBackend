@@ -98,3 +98,29 @@ When we have to implement more than one logic to the data
 
 
 Grouping and count and return.
+
+
+10000 -> international users
+-> sales team -> countries
+
+-> users in my service are from different countries
+
+-> find active users -> isActive: true
+-> groud the users based on countries and write their count
+-> sort based on count in descending order
+-> country , userCount
+
+app.get("/country", async (req, res)=>{
+  try{
+
+  }catch(err){
+    
+  }
+})
+
+[
+  {
+    country: india,
+
+  }
+]
