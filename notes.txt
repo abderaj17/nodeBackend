@@ -112,9 +112,37 @@ Grouping and count and return.
 
 app.get("/country", async (req, res)=>{
   try{
-
+    const countByCountry = await user.aggregate(
+      [
+        {
+          $match:{
+            isActive: true,
+            role: 'user',
+            age:{$gt:18}
+          }
+        },
+        {
+          $group:{
+            _id:"$country",
+            userCount:{$sum:1}
+          }
+        },
+        {
+          $sort:{
+            userCount:-1,
+          }
+        },
+        {
+          $project:{
+            country:"$_id",
+            userCount:1,
+            _id:0
+          }
+        }
+      ]
+    )
   }catch(err){
-    
+
   }
 })
 
