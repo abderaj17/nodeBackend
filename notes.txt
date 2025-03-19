@@ -166,3 +166,6 @@ API security....!!
 Password security -> email Password
 
 4th -> Server security
+
+server allowed by client side that we have allowed whitelisted.
+yy
