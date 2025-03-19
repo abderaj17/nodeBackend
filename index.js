@@ -55,5 +55,12 @@ app.patch("/update/:email",  async(req, res)=>{
         res.status(404).
     }catch(err){
         res.status(404)
+    } 
+})
+
+app.post("/addMultipleUsers", async(req, res)=>{
+    try{
+        const users = req.body;
+        const result = await 
     }
 })
