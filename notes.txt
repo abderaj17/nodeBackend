@@ -156,3 +156,6 @@ app.get("/country", async (req, res)=>{
 
 
 drone simulation system///
+
+
+use chatGpt as your extended brain.. never rely on it.
