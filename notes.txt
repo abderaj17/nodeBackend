@@ -159,3 +159,8 @@ drone simulation system///
 
 
 use chatGpt as your extended brain.. never rely on it.
+
+
+API security....!!
+
+Password security -> email Password
