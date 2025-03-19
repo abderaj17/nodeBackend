@@ -169,3 +169,5 @@ Password security -> email Password
 
 server allowed by client side that we have allowed whitelisted.
 yy
+
+5th-> Rate limit 
