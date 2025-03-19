@@ -170,4 +170,14 @@ Password security -> email Password
 server allowed by client side that we have allowed whitelisted.
 yy
 
-5th-> Rate limit 
+5th-> Rate limit   === Attack Ddos Attack
+
+bots --->> amazon.in 
+
+Rate-limitar => 1hr (100 request only)
+
+
+bycrypt for encryption
+
+compare Password (function)
+
