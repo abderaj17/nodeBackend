@@ -174,7 +174,7 @@ yy
 
 bots --->> amazon.in 
 
-Rate-limitar => 1hr (100 request only)
+Rate-limitar => 1hr (100 request only) --> traffic server prevents
 
 
 bycrypt for encryption

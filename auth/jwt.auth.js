@@ -2,9 +2,9 @@ const jwt = require('jsonwebtoken');
 
 const auth = (req, res, next) =>{
     try{
-
+     const token = req.header('Authorization')
     }catch(err){
-        res.status
+        res.status(2001)
     }
 }
 
