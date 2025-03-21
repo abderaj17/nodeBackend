@@ -182,3 +182,6 @@ bycrypt for encryption
 compare Password (function)
 
 becrypt using genSalt
+
+
+session based authentication
