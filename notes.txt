@@ -194,3 +194,5 @@ token used for not repeteadly login to user
 *Payload
 *Signature
 
+install Json Web Token (JWT)
+
