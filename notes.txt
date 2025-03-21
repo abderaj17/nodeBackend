@@ -185,3 +185,12 @@ becrypt using genSalt
 
 
 session based authentication
+
+logs in or sign up -> token
+
+token used for not repeteadly login to user
+
+*Header
+*Payload
+*Signature
+

@@ -1,0 +1,20 @@
+ecommerce application
+kirana store
+
+kiranastore.com -> users, products
+kiranastoreadmin.com -> sellers, distribution, logistics
+
+API requests
+
+-> products -> category
+-> product  _id
+-> add to category
+
+ADMIN
+
+-> product add
+-> product update
+-> delivery status
+
+
+cre
