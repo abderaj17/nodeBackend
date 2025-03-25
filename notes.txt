@@ -208,3 +208,5 @@ client side  <-------> server side (HTTP)
 
 Server always serves...
 
+HTTP only supports one sided communication(unidirectional).
+
