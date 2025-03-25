@@ -196,3 +196,15 @@ token used for not repeteadly login to user
 
 install Json Web Token (JWT)
 
+
+
+-->>Web RTC<<--
+
+Real Time communications----
+Both sides
+Notification
+
+client side  <-------> server side (HTTP)
+
+Server always serves...
+
