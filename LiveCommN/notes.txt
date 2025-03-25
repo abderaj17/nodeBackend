@@ -1,0 +1,4 @@
+io.on
+socket.emit
+socket.on
+socket.join

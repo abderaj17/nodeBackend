@@ -7,10 +7,22 @@ const http = require('http').createServer(app);
 //our socket.io server
 const socket = require('socket.io');
 
-const io = socket(http);
+
+
+const io = new socket.Server(http, {
+    cors:{
+        origin: '*',
+        methods: ['GET', 'POST']
+    }
+})
 
 io.on('connection', (socket) => {   
     console.log(`a user connected with socket id ${socket.id}`);
+
+    socket.on('message', (msg)=>{
+        console.log(msg);
+        io.emit('message', msg);
+    })
 });
 
 app.get('/', (req, res) => {
