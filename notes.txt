@@ -210,3 +210,8 @@ Server always serves...
 
 HTTP only supports one sided communication(unidirectional).
 
+Web Socket connection--->>
+Always live
+
+TCP
+
